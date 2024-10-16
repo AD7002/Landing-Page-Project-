@@ -1,10 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
 }
 
 .header {
@@ -13,7 +18,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 200px ;
+    gap: 200px;
 }
 
 .header-links, a {
@@ -31,10 +36,6 @@ body {
     margin-right: auto;
     display: flex;
     justify-content: flex-start;
-
-
-
-
 }
  
 
@@ -43,10 +44,11 @@ body {
 
     color: #e5e7eb;
     background-color: #1F2937;
-    margin: 0;
+    margin: 0px;
+    padding: 20px;
     font-size: 18px;
     display: flex;
-    height: 50vh;
+   height: 50vh;
     justify-content: space-around;
     align-items: center;
 
@@ -66,30 +68,41 @@ font-size: 18px;
 button {
     background-color: #3882f6;
     color: white;
-    padding: 30 50px;
+    padding: 8px 40px;
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    border: 0;
 
 
 }
 
-.hero2h1{
+.h2  {
     display: flex;
     justify-content: center;
-    align-items: center;
+   text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px
 
 }
-
 .hero2 {
+   
+   
+    height: 100vh;
+    padding: 100px
+}
+
+.hero2contianer {
     display: flex;
     justify-content: space-between;
-    /*border: 3px solid black;*/
-    height: 50vh;
     gap: 1em;
     align-items: center;
     
 }
+
+
 
 .item img {
 
@@ -104,11 +117,14 @@ button {
 
     text-align: center;
     font-weight: 400;
+    margin: 0;
 }
 
-.quote-section {
+#quote-section {
     background-color: #E5E7EB;
     height: 40vh;
+    padding: 100px;
+    
     
 }
 
@@ -132,27 +148,79 @@ button {
     padding: 20px;
 }
 
-.cta {
-
-    height: 30vh;
-    color: white;
-
+#cta-section {
+    padding: 100px
 }
+
+
+
 
 .cta-box {
     background-color: #3882f6;
     border: 2px solid #3882f6;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 80px 150px;
-    margin: 80px;
+    padding: 40px 120px;
+    margin: 70px;
     border-radius: 10px;
+    gap: 0; 
+    /*border: solid 2px black;*/
+    padding:30px;
+    color: white;
 }
 
 
 
+.cta-text1 {
+    display: flex;
+    height: auto;
+    width: 350px;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    margin-left: 28px;
+    align-items: center;
+   /* border: solid 2px black;*/
+
+}
+
+.cta-box2{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 600px;
+    margin: auto;
+    /*border: #1F2937 solid 1px;*/
+    height: auto;
+
+
+}
+.cta-text2 {
+
+    height: 20px;
+    width: 300px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align:start;
+
+
+}
+
+
+
+.cta-button {
+  
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 40px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: white solid 2px;
+    text-align:center;
+    height: 30px;
+    
+}
 
 
 
@@ -162,8 +230,8 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
-
-
-
+    text-wrap: balance;
+    text-align: center;
+    padding-top: 10px
 
 }
